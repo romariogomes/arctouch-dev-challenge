@@ -1,0 +1,121 @@
+$header-color: #0077B5; 
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@media screen and (min-width: 600px) and (max-width: 759px) {
+	
+	header.row {
+		div.col.second {
+			span#cellphone-background {
+				display: block !important;
+				width: 81% !important;
+			}
+		}
+	}	
+}
+
+@media screen and (min-width: 760px) {
+	
+	header.row {
+		div.col.second {
+			span#cellphone-background {
+				display: block !important;
+				width: 75% !important;
+			}
+		}
+	}	
+}
+
+@media screen and (max-width: 400px) {
+	
+	header.row {
+		height: 45vh !important;
+		div.col.second {
+			display: none !important;
+		}
+	}	
+}
+
+@media screen and (max-width: 599px) {
+	
+	header.row {
+		div.col.second {
+			display: none !important;
+		}
+	}	
+}
+
+body {
+  
+  header.row {
+    
+    background-image: url('../../images/header_background.png');
+    background-size: cover;
+    background-repeat: round;
+    height: 60vh;
+    margin: 0px;
+
+    div.col.first {
+
+    	position: inherit;
+    	padding: 6%;
+    	
+
+    	#craze-logo {
+
+	    	font-family: 'Pacifico', cursive;
+		    font-size: 4.5em;
+		    color: #FFF;
+			text-align: left;
+			text-shadow: 2px 3.464px 0px rgba(0, 1, 1, 0.25);
+			padding: 0;
+			margin-bottom: 10px;
+	    }
+	    
+	    #craze-subtitle {
+
+	    	padding:0;
+	    	font-family: 'HelveticaNeue';
+	    	font-size: 1.2em;
+			color: #FFF;
+			line-height: 1.5;
+	  		text-align: left;
+	  		text-shadow: 2px 3.464px 0px rgba(0, 1, 1, 0.25);
+	  		margin-bottom: 10px;
+	    }
+
+	    #device-availability {
+
+	    	padding: 0;
+
+	    	span.device-logo-background {
+		    	display: inline-block;
+			    font-size: 1.2em;
+			    line-height: 40px;
+			    color: #fff !important;
+			    text-align: center;
+			    white-space: nowrap;
+			    vertical-align: baseline;
+			    background-color: #000;
+			    border-radius:50px;
+			    position: relative;
+			    height: 2.0em;
+			    width: 2.0em;
+			}
+	    }
+  	}
+
+  	div.col.second span#cellphone-background{
+    	background-image: url('../../images/header_background_hand.png');
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	display: none;
+		height: 78%;
+	    width: 70%;
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+    }
+
+  }
+}
+
