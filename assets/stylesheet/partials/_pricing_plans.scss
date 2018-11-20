@@ -1,4 +1,4 @@
-.pricing-plans-list {
+#pricing-plans-list {
 
 	margin-top: 30px;
 }
@@ -75,5 +75,41 @@
 	    font-weight: bold;
 	    line-height: 1.2;
 	    padding: 10px 20px;
+	}
+}
+
+#pricing-plans-carousel {
+
+	display: none;
+}
+
+.pricing-plan.mobile {
+
+	padding: 10px 20%;
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	
+	#pricing-plans-carousel {
+
+		display: block;
+
+		.carousel-control-next-icon, .carousel-control-prev-icon {
+			background-color: $default-blue;
+		}
+	}
+
+	#pricing-plans-list {
+
+		display: none;
+	}
+
+	.pricing-plan {
+
+		&:hover {
+
+	    	transform: none;
+	    }
 	}
 }
