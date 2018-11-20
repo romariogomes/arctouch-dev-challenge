@@ -23,7 +23,7 @@
     bottom: 0;
 
     li {
-        border: 2px solid $craze-blue;
+        border: 2px solid $default-blue;
         background: transparent;
         width: 12px;
         height: 12px;
@@ -31,7 +31,7 @@
     }
 
     li.active {
-        background: $craze-blue;
+        background: $default-blue;
         margin: 1px;
     }
 

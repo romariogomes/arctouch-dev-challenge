@@ -1,0 +1,34 @@
+footer {
+	
+	height: 3%;
+	width: 100%;
+	background-color: $gray-section;
+
+	div {
+
+		height: inherit;
+	    width: inherit;
+	    line-height: 4em;
+
+	}
+	ul.links-list {
+
+		padding: 10px;
+    	text-align: center;
+    	height: inherit;
+    	width: inherit;
+    	margin: 0;
+
+		li.link {
+			
+			display: inline;
+    		padding: inherit;
+
+    		a {
+    			color: $text-color;
+    			text-decoration: none;
+    			cursor: pointer;
+    		}
+		}
+	}
+}
