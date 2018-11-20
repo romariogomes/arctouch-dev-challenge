@@ -1,0 +1,21 @@
+@media screen and (max-width: 570px) {
+	
+	#video-demo {
+
+		iframe {
+
+			height: 250px;
+		}
+	}	
+}
+
+@media screen and (max-width: 400px) {
+	
+	#video-demo {
+
+		iframe {
+
+			height: 220px;
+		}
+	}	
+}
