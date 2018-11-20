@@ -1,0 +1,63 @@
+// @import 'variables'
+
+.customer-report, .customer-name {
+	
+    font-size: 18px !important;
+	font-style: italic;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.customer-name{
+	padding-top: 0px;
+	font-style: normal;
+    font-size: 15px !important;
+    color: rgb(34, 34, 34);
+    font-family: myriad-pro, sans-serif;
+}
+
+.carousel-indicators {
+
+    position: relative;
+    bottom: 0;
+
+    li {
+        border: 2px solid $craze-blue;
+        background: transparent;
+        width: 12px;
+        height: 12px;
+        margin: 1px 3px;    
+    }
+
+    li.active {
+        background: $craze-blue;
+        margin: 1px;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }    
+}
+
+// .carousel-indicators {
+//     position: relative;
+//     bottom: 0;
+// }
+
+// .carousel-indicators li {
+//     border: 2px solid $craze-blue;
+//     background: transparent;
+//     width: 12px;
+//     height: 12px;
+//     margin: 1px 3px;
+// }
+
+// .carousel-indicators li.active {
+//     background: $craze-blue;
+//     margin: 1px;
+// }
+
+// .carousel-inner .item {
+//     margin-bottom: 20px;
+// }
