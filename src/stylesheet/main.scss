@@ -6,6 +6,7 @@
 @import 'partials/testimonials';
 @import 'partials/contact';
 @import 'partials/footer';
+@import 'partials/common';
 // @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
@@ -114,6 +115,7 @@ body {
   	}
 
   	div.col.second span#cellphone-background{
+  		
     	background-image: url('../../images/header_background_hand.png');
     	background-size: contain;
     	background-repeat: no-repeat;
@@ -129,56 +131,56 @@ body {
   
 }
 
-.section-presentation {
-	// margin-top: 50px;
-}
-section {
-	padding: 3% 0%;
-}
+// .section-presentation {
+// 	// margin-top: 50px;
+// }
+// section {
+// 	padding: 3% 0%;
+// }
 
-h2.section-title {
-	font-family: myriad-pro, sans-serif;
-	// font-family: "Myriad Pro";
-	font-weight: 400;
-	line-height: 1.0;
-	text-align: center;
-	// margin-bottom: 25px;
-	padding: 10px;
-}
+// h2.section-title {
+// 	font-family: myriad-pro, sans-serif;
+// 	// font-family: "Myriad Pro";
+// 	font-weight: 400;
+// 	line-height: 1.0;
+// 	text-align: center;
+// 	// margin-bottom: 25px;
+// 	padding: 10px;
+// }
 
-p.section-description, .customer-report{
-	font-family: helvetica-neue, sans-serif;
-    line-height: 1.625;
-    text-align: center;
-    font-size: 16px;
-    color: $text-color;
-    font-weight: 300;
-}
+// p.section-description, .customer-report{
+// 	font-family: helvetica-neue, sans-serif;
+//     line-height: 1.625;
+//     text-align: center;
+//     font-size: 16px;
+//     color: $text-color;
+//     font-weight: 300;
+// }
 
-.left-align, {
-	text-align: left !important;
-}
+// .left-align, {
+// 	text-align: left !important;
+// }
 
-.feature-logo {
-	font-size: 50px;
-    text-align: center;
-    color: rgb(52, 152, 219);
-}
+// .feature-logo {
+// 	font-size: 50px;
+//     text-align: center;
+//     color: rgb(52, 152, 219);
+// }
 
-.feature-title h2 {
-	font-family: myriad-pro, sans-serif;
-    font-size: 24px;
-    text-align: center;
-}
+// .feature-title h2 {
+// 	font-family: myriad-pro, sans-serif;
+//     font-size: 24px;
+//     text-align: center;
+// }
 
-.gray-section{
-	// background-color: rgb(231, 231, 231);
-	background-color: $gray-section;
-}
+// .gray-section{
+// 	// background-color: rgb(231, 231, 231);
+// 	background-color: $gray-section;
+// }
 
-ul.bullet {
-	// list-style-image: url('../../images/bullet.png');
-	list-style-image: $list-bullet;
-}
+// ul.bullet {
+// 	// list-style-image: url('../../images/bullet.png');
+// 	list-style-image: $list-bullet;
+// }
 
 
