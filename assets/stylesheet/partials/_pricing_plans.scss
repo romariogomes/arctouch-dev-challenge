@@ -1,8 +1,21 @@
+.pricing-plans-list {
+
+	margin-top: 30px;
+}
+
 .pricing-plan {
 
 	background-color: transparent;
 	text-align: center;
 	padding: 5px;
+	cursor: pointer;
+	transition: transform .2s;
+
+	&:hover {
+
+    	transform: scale(1.1);
+    }
+
 	div {
 
 		background-color: #fff;
@@ -43,7 +56,6 @@
 	.plan-features-list {
 
 		padding: 0px 20px;
-		// margin: 20px 0px;
 		color: $text-color;
 
 		.plan-feature {
