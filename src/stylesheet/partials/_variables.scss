@@ -6,8 +6,8 @@ $gray-section: rgb(231, 231, 231);
 
 // IMAGES
 
-// $header-background: ;
-// $header-background-cellphone:
+$header-background: url('../../images/header_background.png');
+$header-background-cellphone: url('../../images/header_background_hand.png');
 $list-bullet: url('../../images/bullet.png');
 
 // FONTS
@@ -15,3 +15,5 @@ $list-bullet: url('../../images/bullet.png');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 $craze-logo-font: 'Pacifico', cursive;
 $craze-subtitle-logo-font: 'HelveticaNeue';
+$feature-item-subtitle: helvetica-neue, sans-serif;
+$section-title-font: myriad-pro, sans-serif;

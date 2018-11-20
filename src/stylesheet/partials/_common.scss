@@ -3,51 +3,56 @@ section {
 	padding: 3% 0%;
 
 	h2.section-title {
-		font-family: myriad-pro, sans-serif;
-		// font-family: "Myriad Pro";
+
+		// font-family: myriad-pro, sans-serif;
+		font-family: $section-title-font;
 		font-weight: 400;
 		line-height: 1.0;
 		text-align: center;
-		// margin-bottom: 25px;
 		padding: 10px;
+	}
+
+	p.section-description, .customer-report{
+		
+		font-family: $feature-item-subtitle;
+	    line-height: 1.625;
+	    text-align: center;
+	    font-size: 16px;
+	    color: $text-color;
+	    font-weight: 300;
+	}
+
+	.left-align, {
+
+		text-align: left !important;
 	}
 }
 
 .features-list {
+
+	margin: 30px 0px;
 	
-}
+	.feature-logo {
 
+		font-size: 50px;
+	    text-align: center;
+	    color: rgb(52, 152, 219);
+	}
 
+	.feature-title h2 {
 
-p.section-description, .customer-report{
-	font-family: helvetica-neue, sans-serif;
-    line-height: 1.625;
-    text-align: center;
-    font-size: 16px;
-    color: $text-color;
-    font-weight: 300;
-}
-
-.left-align, {
-	text-align: left !important;
-}
-
-.feature-logo {
-	font-size: 50px;
-    text-align: center;
-    color: rgb(52, 152, 219);
-}
-
-.feature-title h2 {
-	font-family: myriad-pro, sans-serif;
-    font-size: 24px;
-    text-align: center;
+		font-family: myriad-pro, sans-serif;
+	    font-size: 24px;
+	    text-align: center;
+	}
 }
 
 .gray-section{
-	// background-color: rgb(231, 231, 231);
+	
 	background-color: $gray-section;
 }
+
+
 
 ul.bullet {
 	// list-style-image: url('../../images/bullet.png');
